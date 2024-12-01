@@ -25,6 +25,7 @@
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
         }
         h2 {
             color: #333;
@@ -32,14 +33,63 @@
         p {
             color: #666;
         }
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .skill-tag {
+            background-color: #e8f0fe;
+            color: #1a73e8;
+            padding: 5px 10px;
+            border-radius: 15px;
+            font-size: 0.9em;
+        }
+        .contact-info {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
     </style>
 </head>
 <body>
     <h1>Welcome to My Website</h1>
+    
     <div class="content">
         <h2>About</h2>
         <p>This is a simple website to demonstrate GitHub workflows.</p>
-        <p>Here's where we'll add more content later!</p>
+    </div>
+
+    <div class="content">
+        <h2>Projects</h2>
+        <p>Here are some of my recent projects:</p>
+        <ul>
+            <li>Project 1: GitHub Workflow Demo</li>
+            <li>Project 2: Coming Soon</li>
+            <li>Project 3: Stay Tuned</li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <h2>Skills & Technologies</h2>
+        <div class="skills-list">
+            <span class="skill-tag">HTML</span>
+            <span class="skill-tag">CSS</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">GitHub</span>
+        </div>
+    </div>
+
+    <div class="content">
+        <h2>Contact</h2>
+        <div class="contact-info">
+            <p>Email: example@domain.com</p>
+            <p>GitHub: github.com/username</p>
+            <p>LinkedIn: linkedin.com/in/username</p>
+        </div>
     </div>
 </body>
 </html>
